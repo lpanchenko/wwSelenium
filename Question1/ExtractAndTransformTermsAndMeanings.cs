@@ -25,16 +25,13 @@ namespace Question1
 
             using (StreamReader reader = new StreamReader(fullPath))
             {
-                // Try to match each line against the Regex.
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
                     var strings = line.Split('–');
-                    // We make assumption that word separate from another part by -
-                    // And can be possible only one - on whole line 
+                    //  I have assumed that each word separate from another part by - and can be possible only one - on the whole line
                     var word = strings[0];
-                    // We make assumption that each meaning separate from another by , 
-                    // And no , inside the meaning itself
+                    // Each meaning separate from another by ',' and no ',' inside the meaning itself
                     var meanings = strings[1].Split(',');
 
                     _output.WriteLine(word.Trim());
