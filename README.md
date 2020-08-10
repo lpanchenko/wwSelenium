@@ -26,10 +26,15 @@ You can download browser drivers from below links : https://chromedriver.chromiu
 >Meaning2  
 >  
 >Use appropriate data structures wherever necessary.
- 
+ #### Answer
+ 1. Locate the repository folder on disk and click on  runQuestion1.bat
+ 2. Results should look like
+  ![test result example](Resources/resultsQuestion1.png)
+  3. Code [url](Question1/ExtractAndTransformTermsAndMeanings.cs) 
  ### Question 3
 >Generate 500 random numbers and create a method to print the nth smallest number in a programming language of your choice.
  #### Answer
+ Note: I have assumed that random numbers should be generated in a range 1..100.
  1. Locate the repository folder on disk and click on  runQuestion3.bat
  2. Results should look like
   ![test result example](Resources/resultsQuestion3.png)
@@ -41,4 +46,5 @@ You can download browser drivers from below links : https://chromedriver.chromiu
 ### How to collect the data
 All the output would be visible in Console window. Please see example bellow
 ![test result example](Resources/resultsSelenium.png)
-## About tests
+### About Selenium tests
+
