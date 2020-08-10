@@ -1,3 +1,3 @@
 clear
-dotnet test Question1\Question1.sln -o Output -l "console;verbosity=detailed"
+dotnet test Question1\Question1.sln -l "console;verbosity=detailed"
 pause

@@ -1,8 +1,8 @@
 # Weight Watchers Tests
 ## Prerequisites
 * Installed Visual Studio 2019
-* Downloaded WebDriver for Chrome 
-You can download browser drivers from below links : https://chromedriver.chromium.org/home
+* Installed WebDriver for Chrome. 
+You can download Chrome driver from the (link)[https://chromedriver.chromium.org/home]
 * Place WebDriver to the local folder, add this folder to the Path variable 
 * Installed .Net Core 3.1
 ## Code questions

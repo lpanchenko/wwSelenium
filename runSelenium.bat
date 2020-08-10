@@ -1,3 +1,3 @@
 clear
-dotnet test SeleniumTests\Selenium.sln -o Output -l "console;verbosity=detailed"
+dotnet test SeleniumTests\Selenium.sln -l "console;verbosity=detailed"
 pause
